@@ -1,0 +1,8 @@
+This the readme file for part4 assignment.
+
+Name: Zhuoer Lyu
+ASU ID: 1219591373
+
+How it works: This is using the argc and argv in c program. However, since argc and argv are for command lins instead of
+            just command line arguments, so a little modification need to be done: the argc should be minus 1 to get the
+            number of command line arguments, and argv should ingore the first argument.

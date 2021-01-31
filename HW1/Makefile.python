@@ -1,0 +1,5 @@
+run: python_program.py
+	chmod +x python_program.py 
+	cp python_program.py python_program
+clean: 
+	rm python_program

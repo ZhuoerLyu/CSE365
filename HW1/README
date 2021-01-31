@@ -1,0 +1,30 @@
+This is the readme for part2 assignment
+
+wechall name: largelatte
+
+Level 0: cat readme
+        use cat to get the password inside readme
+
+Level 1: cat ./-
+
+Level 2: cat "spaces in this filename"
+
+Level 3: cd inhere
+        ls -a 
+        cat .hidden
+        go to the ingere directory and use ls to list hidden file, then use cat to get 
+
+Level 4: file ./*
+         cat ./-file07
+         use file ./* to get all files' info, and find the file07 is an ascii text file, so use cat to get the content
+
+Level 5: find . -type f -size 1033c ! -executable
+         cat 
+         each argument in find is corresponding to each requirements from the description, it returns us the file, then use cat to get the password
+
+Level 6: find / -type f -user bandit7 -group bandit6 -size 33c
+         based on the requirements from description, we can set those constraints. then we use cat to get the content
+
+Level 7: cat data.txt | grep millionth
+         it can grep the line which contains millionth 
+Level 8: cat data.txt | sort | uniq -u
